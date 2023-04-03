@@ -12,6 +12,7 @@ var xx = cell_w div 2;
 var yy = cell_h div 2;
 var chance = 1;
 var passo = 400;
+var enemy_max = 10;
 
 for(var i = 0;i < passo;i++){
 	if(irandom(chance) == chance){
@@ -38,6 +39,14 @@ for(var xx = 0;xx < cell_w;xx++){
 			var y1 = yy * cell_size + cell_size / 2;
 			if(!instance_exists(obj_player)){
 				instance_create_layer(x1,y1,"Instances",obj_player);
+			}
+			if(enemy_max > 0){
+				var chance = 25;
+				var dist = 150;
+				if(irandom(chance) == chance && point_distance(x1,y1,obj_player.x,obj_player.y) > dist){	
+					instance_create_layer(x1,y1,"Instances",obj_enemy);
+					enemy_max -= 1;
+				}
 			}
 		}
 	}
