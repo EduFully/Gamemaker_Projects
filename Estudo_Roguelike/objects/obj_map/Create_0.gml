@@ -1,4 +1,4 @@
-cell_size = 32;
+cell_size = 64;
 room_width = cell_size * 40;
 room_height = room_width div 2;
 cell_w = room_width div cell_size;
