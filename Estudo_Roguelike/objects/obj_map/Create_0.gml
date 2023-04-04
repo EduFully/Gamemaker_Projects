@@ -5,6 +5,7 @@ cell_w = room_width div cell_size;
 cell_h = room_height div cell_size;
 
 grid = ds_grid_create(cell_w,cell_h);
+mp_grid = mp_grid_create(0,0,cell_w,cell_h,cell_size,cell_size);
 ds_grid_clear(grid,0);
 randomize();
 var dir = irandom(3);
@@ -51,3 +52,5 @@ for(var xx = 0;xx < cell_w;xx++){
 		}
 	}
 }
+
+mp_grid_add_instances(mp_grid,obj_wall,false);
