@@ -34,6 +34,8 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"wall_tiles","path":"tilesets/wall_tiles/wall_tiles.yy",},},
+    {"id":{"name":"spr_tile_set","path":"sprites/spr_tile_set/spr_tile_set.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
