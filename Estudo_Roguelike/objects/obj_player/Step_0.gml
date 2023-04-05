@@ -7,6 +7,8 @@ var pressed = right - left != 0 || down - up != 0;
 
 move_dir = point_direction(0,0,right - left, down - up);
 
+if(hspd != 0) image_xscale = sign(hspd);
+
 hspd = lengthdir_x(spd * pressed,move_dir);
 vspd = lengthdir_y(spd * pressed,move_dir);
 
