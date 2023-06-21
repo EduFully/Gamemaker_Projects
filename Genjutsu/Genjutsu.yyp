@@ -40,6 +40,7 @@
     {"id":{"name":"obj_destino","path":"objects/obj_destino/obj_destino.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_destino","path":"sprites/spr_destino/spr_destino.yy",},},
+    {"id":{"name":"fnt_info","path":"fonts/fnt_info/fnt_info.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
